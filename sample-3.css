@@ -1,0 +1,202 @@
+body {
+    background-color: #f4f7f2;
+    color: #26352b;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #174d36;
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+}
+
+header h1 {
+    font-size: 32px;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 8px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffd166;
+}
+
+.hero {
+    height: 420px;
+    background-image: url("https://images.unsplash.com/photo-1464278533981-50106e6176b1?w=1400");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.55);
+    color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.overlay h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    background-color: #f4a261;
+    color: #222;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+section h2 {
+    margin-bottom: 25px;
+    color: #174d36;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.card, .price-card {
+    background: white;
+    width: 290px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    padding-bottom: 20px;
+    transition: transform 0.3s;
+}
+
+.card:hover, .price-card:hover {
+    transform: translateY(-6px);
+}
+
+.card img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+}
+
+.card h3, .price-card h3 {
+    margin: 12px;
+}
+
+.card p {
+    margin: 8px;
+}
+
+.easy, .medium, .hard {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 20px;
+    color: white;
+    font-size: 14px;
+}
+
+.easy {
+    background: #2e8b57;
+}
+
+.medium {
+    background: #e9a23b;
+}
+
+.hard {
+    background: #c0392b;
+}
+
+.info {
+    background: #e1ecdf;
+}
+
+.panel {
+    max-width: 750px;
+    margin: auto;
+    padding: 25px;
+    background: white;
+    border-left: 6px solid #2e8b57;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    text-align: left;
+}
+
+.panel p {
+    margin: 10px 0;
+}
+
+.checklist {
+    border-left-color: #e9a23b;
+}
+
+.safety {
+    background: #fff4e8;
+}
+
+.safety .panel {
+    border-left-color: #c0392b;
+}
+
+.price-card {
+    padding: 25px 15px;
+    border-top: 5px solid #2e8b57;
+}
+
+.price-card h2 {
+    color: #e67e22;
+    font-size: 30px;
+}
+
+.price-card p {
+    margin: 10px;
+}
+
+.featured {
+    background: #e1ecdf;
+    border-top-color: #e67e22;
+}
+
+.note {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
+}
+
+footer {
+    background: #174d36;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+
+    nav a {
+        display: inline-block;
+        margin: 6px;
+    }
+
+

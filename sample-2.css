@@ -1,0 +1,131 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f6f9;
+    color: #333;
+}
+
+header {
+    background: #172554;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    display: inline-block;
+}
+
+
+h2 {
+    text-align: center;
+    margin: 30px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.product {
+    position: relative;
+    background: white;
+    width: 230px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px #ddd;
+    transition: 0.3s;
+}
+
+
+.image {
+    font-size: 65px;
+    text-align: center;
+    padding: 15px;
+}
+
+.discount {
+    background: #dc2626;
+    color: white;
+    padding: 5px 8px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.price {
+    color: #15803d;
+    font-weight: bold;
+}
+
+del {
+    color: gray;
+    font-size: 13px;
+}
+
+button {
+    background: #2563eb;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+table {
+    width: 90%;
+    margin: auto;
+    background: white;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background: #172554;
+    color: white;
+}
+
+tr:hover {
+    background: #eff6ff;
+}
+
+footer {
+    background: #172554;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+
+    .product {
+        width: 85%;
+    }
+
+    nav a {
+        margin: 5px;
+    }
+
+    table {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    th, td {
+        padding: 7px;
+    }
+
